@@ -42,8 +42,11 @@ class Leetsolv < Formula
 
   def caveats
     <<~EOS
-      If you previously installed via install.sh, remove the old binary:
+      💡 Previously installed via install.sh? Remove the old binary to avoid conflicts:
+
         sudo rm /usr/local/bin/leetsolv
+
+      Otherwise, the old binary in /usr/local/bin may take precedence.
     EOS
   end
 
