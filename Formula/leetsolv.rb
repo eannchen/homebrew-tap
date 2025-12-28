@@ -1,20 +1,20 @@
 class Leetsolv < Formula
   desc "LeetCode spaced repetition learning tool"
   homepage "https://github.com/eannchen/leetsolv"
-  version "v1.1.0"
+  version "v1.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/eannchen/leetsolv/releases/download/v1.1.0/leetsolv-darwin-arm64"
-      sha256 "95bc320331696b524e5765d37c829add1f247fa894a3e8cb52f36949fe2a3d75"
+      url "https://github.com/eannchen/leetsolv/releases/download/v1.1.1/leetsolv-darwin-arm64"
+      sha256 "bd6dcf98e3c87044a8798c2a22690f80781237161ec66bff4865050a0a97cdd2"
 
       def install
         bin.install "leetsolv-darwin-arm64" => "leetsolv"
       end
     else
-      url "https://github.com/eannchen/leetsolv/releases/download/v1.1.0/leetsolv-darwin-amd64"
-      sha256 "02b1c3c918f40258165e74c88a76cfac2df7886c262fa4278edb090d344b30ec"
+      url "https://github.com/eannchen/leetsolv/releases/download/v1.1.1/leetsolv-darwin-amd64"
+      sha256 "47eb6576e535b56495286a36d2eec8ce78d6e1f3cf950e7ba72cec2e80e165ca"
 
       def install
         bin.install "leetsolv-darwin-amd64" => "leetsolv"
@@ -24,15 +24,15 @@ class Leetsolv < Formula
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/eannchen/leetsolv/releases/download/v1.1.0/leetsolv-linux-arm64"
-      sha256 "38b845804b790cf2e878fbe270a63902f1def83ddca36aa0722dfc431aec8ddf"
+      url "https://github.com/eannchen/leetsolv/releases/download/v1.1.1/leetsolv-linux-arm64"
+      sha256 "0b762c998a67982550f1618af67822883005621c189223da4c125f9f19c3c2f6"
 
       def install
         bin.install "leetsolv-linux-arm64" => "leetsolv"
       end
     else
-      url "https://github.com/eannchen/leetsolv/releases/download/v1.1.0/leetsolv-linux-amd64"
-      sha256 "f8a6276c38d44787a26ea0b3d31e31bd87167f68d65e06f4dfcb10e2a209a367"
+      url "https://github.com/eannchen/leetsolv/releases/download/v1.1.1/leetsolv-linux-amd64"
+      sha256 "14f81b7f554901bcbca592af55247db71e6bcab313cfa3464bf91dee0fb102db"
 
       def install
         bin.install "leetsolv-linux-amd64" => "leetsolv"
